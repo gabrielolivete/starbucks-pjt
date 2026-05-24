@@ -142,7 +142,29 @@
 
             .trending-card-description {
                 display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: var(--color-neutral-8);
+
+                span {
+                    font-size: 1rem;
+                    font-weight: 500;
+                    color: var(--color-neutral-7);
+                }
             }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #trending {
+        .trending-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 24px;
         }
     }
 }
