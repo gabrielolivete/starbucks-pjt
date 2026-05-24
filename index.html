@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Starbucks</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+            <img src="./src/img/logo-starbucks.png" alt="Logo Starbucks" class="logo">
+            <button class="btn btn-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul id="nav-links">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#trending">Trending</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#products">Products</a>
+                </li>
+            </ul>
+            <a href="#" class="btn btn-default">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main id="container">
+        <!-- HOME -->
+        <section id="home">
+            <img src="./src/img/detail.png" alt="Starbucks drink" class="home-image">
+            <h1 class="home-title">More than coffee, an <span>experience.</span></h1>
+            <p class="home-description">Discover iconic coffees, unique flavors and the perfect energy for every part of your day.</p>
+
+            <div class="home-actions">
+                <a href="" class="btn btn-default">See More</a>
+                <a href="" class="btn btn-outlined">Contact Us</a>
+            </div>
+            
+        </section>
+
+        <!-- TRENDING -->
+         <section id="trending">
+            <h2 class="title">Trending</h2>
+            <div class="trending-cards">
+                <div class="trending-card">
+                    <img src="./src/img/trending/card1.png" alt="Starbucks drink">
+                    <div class="trending-rate">
+                        <p>5 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                    <p class="trending-card-description"><span>Hazelnut</span> Frappuccino</p>
+                </div>
+
+                <div class="trending-card">
+                    <img src="./src/img/trending/card2.png" alt="Starbucks drink">
+                    <div class="trending-rate">
+                        <p>5 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                    <p class="trending-card-description"><span>Pistachio</span> Frappuccino</p>
+                </div>
+
+                <div class="trending-card">
+                    <img src="./src/img/trending/card3.png" alt="Starbucks drink">
+                    <div class="trending-rate">
+                        <p>5 <i class="fa-solid fa-star"></i></p>
+                    </div>
+                    <p class="trending-card-description"><span>Strawberry</span> Frappuccino</p>
+                </div>
+            </div>
+         </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
