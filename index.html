@@ -13,7 +13,7 @@
 
 <body>
     <!-- HEADER -->
-    <header>
+    <header id="header">
         <nav class="navbar">
             <img src="./src/img/logo-starbucks.png" alt="Logo Starbucks" class="logo">
             <button class="btn btn-mobile">
@@ -27,10 +27,10 @@
                     <a href="#trending">Trending</a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="#about">About Us</a>
                 </li>
                 <li>
-                    <a href="#products">Products</a>
+                    <a href="#products">Fresh Picks</a>
                 </li>
             </ul>
             <a href="#" class="btn btn-default">Contact Us</a>
@@ -62,7 +62,7 @@
                     <div class="trending-rate">
                         <p>5 <i class="fa-solid fa-star"></i></p>
                     </div>
-                    <p class="trending-card-description"><span>Hazelnut</span> Frappuccino</p>
+                    <p class="trending-card-description">Frappuccino<span>Hazelnut</span></p>
                 </div>
 
                 <div class="trending-card">
@@ -70,7 +70,7 @@
                     <div class="trending-rate">
                         <p>5 <i class="fa-solid fa-star"></i></p>
                     </div>
-                    <p class="trending-card-description"><span>Pistachio</span> Frappuccino</p>
+                    <p class="trending-card-description">Frappuccino<span>Pistachio</span></p>
                 </div>
 
                 <div class="trending-card">
@@ -78,16 +78,73 @@
                     <div class="trending-rate">
                         <p>5 <i class="fa-solid fa-star"></i></p>
                     </div>
-                    <p class="trending-card-description"><span>Strawberry</span> Frappuccino</p>
+                    <p class="trending-card-description">Frappuccino<span>Strawberry</span></p>
                 </div>
             </div>
         </section>
 
         <!-- ABOUT -->
         <section id="about">
-            
+            <h2 class="title">About Us</h2>
+            <div class="about-content">
+                <img src="./src/img/about/about-us.png" alt="Starbucks drink" class="about-image">
+                <div class="about-info">
+                    <h3>Our <span>Story</span></h3>
+                    <p>Since the beginning, our passion for coffee has inspired us to deliver unique experiences in
+                        every cup. With carefully <span>selected beans</span> and handcrafted preparation, we strive to
+                        combine quality, flavor and warmth in one place. Here, every detail is designed to turn your
+                        coffee into something special.</p>
+                </div>
+                <div class="about-info">
+                    <h3>Our <span>Purpose</span></h3>
+                    <p>Inpiring moments of conection and well-being through coffee. We believe that every cup can bring
+                        people together, spark ideas and transform daily routines. <span>Our commitment</span> is to
+                        provide quality, sustainability and experiences that make your day lighter and special.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- PRODUCTS -->
+        <section id="products">
+            <h2 class="title">Fresh Picks</h2>
+            <div class="products-cards">
+                <div class="product-card">
+                    <img src="src/img/products/1.png" alt="Moccha Chocolat">
+                    <div class="product-content">
+                        <h3>Moccha <span>Chocolate</span></h3>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="src/img/products/2.png" alt="Moccha Chocolat">
+                    <div class="product-content">
+                        <h3>Moccha <span>Strawberry</span></h3>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="src/img/products/3.png" alt="Moccha Chocolat">
+                    <div class="product-content">
+                        <h3>Moccha <span>Coffee</span></h3>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="src/img/products/4.png" alt="Moccha Chocolat">
+                    <div class="product-content">
+                        <h3>Moccha <span>Mango</span></h3>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            Copyright 2026
+            <i class="fa-regular fa-copyright"></i>
+            Frontend study project by Gabriel - Based on a tutorial by Larissa Kich
+        </p>
+    </footer>
 
     <script src="scripts.js"></script>
 </body>
